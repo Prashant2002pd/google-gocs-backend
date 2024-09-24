@@ -25,7 +25,7 @@ const io = new Server(server, {
     origin: [
       "*",
       "http://localhost:5173",
-      "google-docs-clone-phi-lime.vercel.app",
+      "https://main--starlit-caramel-e57551.netlify.app/",
     ],
     methods: ["GET", "POST", "PATCH", "DELETE"],
   },
